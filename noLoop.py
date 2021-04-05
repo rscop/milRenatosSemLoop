@@ -1,7 +1,7 @@
 class repeatString:
     def repeatString(self, oldString):
-        self.newString = oldString[0:9].replace(oldString[0], oldString[0:9])
-        self.newString = self.newString.replace(self.newString[0], self.newString[0:9])
+        self.newString = oldString[0:10].replace(oldString[0], oldString[0:10])
+        self.newString = self.newString.replace(self.newString[0], self.newString[0:10])
 
     def changeName(self, name):
         self.newString = self.newString.replace(self.newString[0], name)
